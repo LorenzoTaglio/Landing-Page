@@ -1,0 +1,34 @@
+.header{
+    margin: 0 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header .navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header ul{
+    display: flex;
+    gap: 24px;
+    list-style: none;
+
+}
+
+.header > ul > li > a{
+    text-decoration: none;
+}
+
+
+.header .content{
+    display: flex;
+}
+
+.header .content .image{
+    background-color: lightgrey;
+    flex: 1 0 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
