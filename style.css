@@ -183,3 +183,12 @@ body{
     font-size: 24px;
     font-weight: 700;
 }
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    font-size: 18px;
+    padding: 32px;
+}
