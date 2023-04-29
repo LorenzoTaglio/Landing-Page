@@ -123,19 +123,30 @@ body{
     text-align: center;
 }
 
+.quote{
+    background-color: #E5E7EB;
+}
+
 .quote .content{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    padding: 128px 0;
+    margin: 0px auto;
     width: 750px;
 }
 
 .quote .content .text{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
     flex: 0 1 auto;
 }
 
 .quote .content .cited-person{
     align-self: flex-end;
+    font-size: 24px;
+    font-weight: 500;
 }
