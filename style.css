@@ -41,9 +41,14 @@ body{
 
 .hero .content{
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     align-items: stretch;
-    gap: 128px;
     margin: 100px 0;
+}
+
+.hero .content .left-text{
+    flex: 0 1 40%;
 }
 
 .hero .content .left-text .title{
@@ -75,7 +80,8 @@ body{
 
 .hero .content .image{
     background-color: lightgrey;
-    flex: 1 0 50%;
+    flex: 0 0 50%;
+    min-height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
