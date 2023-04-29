@@ -154,11 +154,17 @@ body{
     font-weight: 500;
 }
 
-.call .content{
-    width: 800px;
+.call{
     display: flex;
     justify-content: center;
-    align-items: space-around;
+    align-items: center;
+}
+
+.call .content{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .call .content .left-text{
