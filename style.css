@@ -80,3 +80,41 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 128px;
+}
+
+.info .title{
+    margin: 48px;
+}
+
+.info .items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 48px;
+}
+
+.info .item{
+    flex: 0 0 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info .item .image{
+    border-radius: 10px;
+    flex: 1 0 auto;
+    width: 150px;
+    aspect-ratio: 1/1;
+    border: 3px solid #3882F6;
+}
+
+.info .item .subtext{
+    text-align: center;
+}
