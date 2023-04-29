@@ -1,5 +1,18 @@
+body{
+    margin: 0;
+}
+*{
+    font-family: 'roboto', sans-serif;
+}
+.title{
+    margin: 0;
+}
+.hero, .footer{
+    background-color: #1F2937;
+}
+
 .hero{
-    margin: 0 15%;
+    padding: 0 20%;
     display: flex;
     flex-direction: column;
 }
@@ -7,22 +20,57 @@
 .hero .header{
     display: flex;
     justify-content: space-between;
+    margin: 16px;
 }
 
 .header ul{
     display: flex;
     gap: 24px;
     list-style: none;
-
 }
 
 .header > ul > li > a{
     text-decoration: none;
 }
 
+.header .logo{
+    color: #F9FAF8;
+    font-weight: 600;
+    font-size: 24px;
+}
 
 .hero .content{
     display: flex;
+    align-items: stretch;
+    gap: 128px;
+    margin: 100px 0;
+}
+
+.hero .content .left-text .title{
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.sign-up{
+    color:#F9FAF8;
+    font-size: 18px;
+    font-weight: 700;
+    border: 0;
+    margin: 12px 0;
+    border-radius: 10px;
+    padding: 12px 48px;
+    background-color: #3882F6;
+}
+
+.call .sign-up{
+    border: 2px solid white;
+}
+
+.hero .content .left-text .subtext, 
+.hero .header ul li a{
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .hero .content .image{
